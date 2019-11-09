@@ -16,7 +16,7 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html) -->
                   sequence="10"/>
         <menuitem id="menu_celery_jammed_task_report"
                   name="Jammed Tasks"
-                  parent="celery.menu_celery_root"
+                  parent="odoo_celery.menu_celery_root"
                   action="action_celery_jammed_task_report"
                   sequence="50"/>
 
@@ -27,12 +27,12 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html) -->
                   sequence="100"/>
         <menuitem id="menu_celery_task_setting"
                   name="Tasks"
-                  parent="celery.menu_celery_setting_root"
+                  parent="odoo_celery.menu_celery_setting_root"
                   action="action_celery_task_setting"
                   sequence="30"/>
         <menuitem id="menu_celery_queues"
                   name="Queues"
-                  parent="celery.menu_celery_setting_root"
+                  parent="odoo_celery.menu_celery_setting_root"
                   action="action_celery_queue"
                   sequence="40"/>
      </data>

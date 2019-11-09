@@ -5,7 +5,7 @@ import logging
 import time
 
 from odoo import api, fields, models, _
-from odoo.addons.celery.models.celery_task import RETRY_COUNTDOWN_MULTIPLY_RETRIES
+from odoo.addons.odoo_celery.models.celery_task import RETRY_COUNTDOWN_MULTIPLY_RETRIES
 
 _logger = logging.getLogger(__name__)
 

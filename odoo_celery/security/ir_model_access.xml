@@ -6,8 +6,8 @@ See LICENSE file for full copyright and licensing details. -->
     <data noupdate="1">
         <record id="access_celery_task_celery_manager" model="ir.model.access">
             <field name="name">celery.task: Celery Manager</field>
-            <field name="model_id" ref="celery.model_celery_task"/>
-            <field name="group_id" ref="celery.group_celery_manager"/>
+            <field name="model_id" ref="odoo_celery.model_celery_task"/>
+            <field name="group_id" ref="odoo_celery.group_celery_manager"/>
             <field name="perm_read" eval="1"/>
             <!-- create: manually from e.g. Cron or a button method -->
             <field name="perm_create" eval="1"/>
@@ -18,8 +18,8 @@ See LICENSE file for full copyright and licensing details. -->
 
         <record id="access_celery_task_celery_rpc" model="ir.model.access">
             <field name="name">celery.task: Celery RPC</field>
-            <field name="model_id" ref="celery.model_celery_task"/>
-            <field name="group_id" ref="celery.group_celery_rpc"/>
+            <field name="model_id" ref="odoo_celery.model_celery_task"/>
+            <field name="group_id" ref="odoo_celery.group_celery_rpc"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -28,8 +28,8 @@ See LICENSE file for full copyright and licensing details. -->
 
         <record id="access_celery_task_setting_celery_manager" model="ir.model.access">
             <field name="name">celery.task.setting: Celery Manager</field>
-            <field name="model_id" ref="celery.model_celery_task_setting"/>
-            <field name="group_id" ref="celery.group_celery_manager"/>
+            <field name="model_id" ref="odoo_celery.model_celery_task_setting"/>
+            <field name="group_id" ref="odoo_celery.group_celery_manager"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -37,8 +37,8 @@ See LICENSE file for full copyright and licensing details. -->
         </record>
         <record id="access_celery_queue_rpc" model="ir.model.access">
             <field name="name">celery.queue: Celery RPC</field>
-            <field name="model_id" ref="celery.model_celery_queue"/>
-            <field name="group_id" ref="celery.group_celery_rpc"/>
+            <field name="model_id" ref="odoo_celery.model_celery_queue"/>
+            <field name="group_id" ref="odoo_celery.group_celery_rpc"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -46,8 +46,8 @@ See LICENSE file for full copyright and licensing details. -->
         </record>
         <record id="access_celery_queue_celery_manager" model="ir.model.access">
             <field name="name">celery.queue: Celery Manager</field>
-            <field name="model_id" ref="celery.model_celery_queue"/>
-            <field name="group_id" ref="celery.group_celery_manager"/>
+            <field name="model_id" ref="odoo_celery.model_celery_queue"/>
+            <field name="group_id" ref="odoo_celery.group_celery_manager"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -55,8 +55,8 @@ See LICENSE file for full copyright and licensing details. -->
         </record>
         <record id="access_celery_task_setting_queue_rpc" model="ir.model.access">
             <field name="name">celery.task.setting.queue: Celery RPC</field>
-            <field name="model_id" ref="celery.model_celery_task_setting_queue"/>
-            <field name="group_id" ref="celery.group_celery_rpc"/>
+            <field name="model_id" ref="odoo_celery.model_celery_task_setting_queue"/>
+            <field name="group_id" ref="odoo_celery.group_celery_rpc"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -64,8 +64,8 @@ See LICENSE file for full copyright and licensing details. -->
         </record>
         <record id="access_celery_task_setting_queue_celery_manager" model="ir.model.access">
             <field name="name">celery.task.setting_queue: Celery Manager</field>
-            <field name="model_id" ref="celery.model_celery_task_setting_queue"/>
-            <field name="group_id" ref="celery.group_celery_manager"/>
+            <field name="model_id" ref="odoo_celery.model_celery_task_setting_queue"/>
+            <field name="group_id" ref="odoo_celery.group_celery_manager"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="1"/>
             <field name="perm_write" eval="1"/>
@@ -73,8 +73,8 @@ See LICENSE file for full copyright and licensing details. -->
         </record>
         <record id="access_celery_jammed_task_report_celery_manager" model="ir.model.access">
             <field name="name">celery.jammed.task.report: Celery Manager</field>
-            <field name="model_id" ref="celery.model_celery_jammed_task_report"/>
-            <field name="group_id" ref="celery.group_celery_manager"/>
+            <field name="model_id" ref="odoo_celery.model_celery_jammed_task_report"/>
+            <field name="group_id" ref="odoo_celery.group_celery_manager"/>
             <field name="perm_read" eval="1"/>
             <field name="perm_create" eval="0"/>
             <field name="perm_write" eval="0"/>

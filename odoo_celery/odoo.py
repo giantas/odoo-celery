@@ -32,9 +32,9 @@ class RunTaskFailure(TaskError):
     """Error from rpc_run_task in Odoo."""
 
 
-app = Celery('odoo.addons.celery')
+app = Celery('odoo.addons.odoo_celery')
 
-@app.task(name='odoo.addons.celery.odoo.call_task', bind=True)
+@app.task(name='odoo.addons.odoo_celery.odoo.call_task', bind=True)
 def call_task(self, url, db, user_id, task_uuid, model, method, **kwargs):
     odoo = xmlrpc_client.ServerProxy('{}/xmlrpc/2/object'.format(url))
     args = [task_uuid, model, method]

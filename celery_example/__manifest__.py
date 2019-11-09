@@ -9,7 +9,7 @@
     'author': 'Nova Code',
     'website': 'https://www.novacode.nl',
     'license': "LGPL-3",
-    'depends': ['celery'],
+    'depends': ['odoo_celery'],
     'data': [
         'data/celery_example_data.xml',
         'security/ir_model_access.xml',

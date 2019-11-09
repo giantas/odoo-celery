@@ -27,7 +27,7 @@ License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html) -->
             <field name="view_mode">form</field>
             <field name="view_id" ref="view_cancel_celery_task"/>
             <field name="target">new</field>
-            <field name="binding_model_id" ref="celery.model_celery_task"/>
+            <field name="binding_model_id" ref="odoo_celery.model_celery_task"/>
         </record>
     </data>
 </odoo>
